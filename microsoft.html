@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Companias</title>
+</head>
+<script type="text/javascript">
+function ShowSelected()
+{
+/* Para obtener el valor */
+var cod = document.getElementById("producto").value;
+alert(cod);
+ 
+/* Para obtener el texto */
+var combo = document.getElementById("producto");
+var selected = combo.options[combo.selectedIndex].text;
+alert(selected);
+}
+</script>
+<style type="text/css">
+	.banner{
+		position: absolute;
+		border-radius:0px;
+		top: 0px;
+		left: 00px;
+	}
+	.a1{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 120px;
+		color: white;
+		text-align: center;
+		left: 150px;
+		top: 10px;
+	}
+	.sub{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 60px;
+		color: white;
+		text-align: center;
+		left: 520px;
+		top: 130px;
+	}
+	.logo{
+		position: absolute;
+		left: 1300px;
+		top: 0px;
+	}
+	.principal1{flex: 1 auto;margin:4em;
+		background: white ;
+		text-align: center;  
+		width:1600px;
+		height: 40px;
+		position: relative;
+		top: 170px;
+		left: -30px;
+		border: black 10px solid;
+		border-radius: 4px;
+		box-shadow: 6px 6px 0px black;
+	}
+	.p3{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		top: 0px;
+		left: -170px;
+		font-size:32px 
+	}
+	.p4{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -120px;
+		font-size:32px 
+	}
+	.p5{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -70px;
+		font-size:32px 
+	}
+	.p6{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -20px;
+		font-size:32px 
+	}
+	.p7{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 30px;
+		font-size:32px 
+	}
+	.p8{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 80px;
+		font-size:32px 
+	}
+	.p9{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 130px;
+		font-size:32px 
+	}
+	.p10{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		top: 0px;
+		left: 170px;
+		font-size:32px 
+	}
+	.combo {
+		position: relative;
+		top: 200px;
+		left: 30px;
+	}
+	.combo1{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		background-color: black;
+		border: #099FFF 6px solid;
+		font-family: Arial;
+		color: white;
+		height: 50px;
+		width: 500px;
+		top: 150px;
+		left: 30px;
+		font-size:40px
+	}
+	.image4{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 400px;
+	}
+	.image5{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 600px;
+	}
+	.image6{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 800px;
+	}
+	.image7{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 1000px;
+	}
+	.hiper1{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 390px;
+		font-size: 30px;
+	}
+	.hiper2{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 600px;
+		font-size: 30px;
+	}
+	.hiper3{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 790px;
+		font-size: 30px;
+	}
+	.hiper4{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 1010px;
+		font-size: 30px;
+	}
+	.principal4{flex: 1 auto;margin:1em;
+		background: white ;
+		text-align: center;  
+		width:450px;
+		height: 150px;
+		position: relative;
+		top: 1340px;
+		left: 1150px;
+		border: black 4px solid;
+	}
+	.z1{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		column-count: 1;
+		column-gap: 20px;
+		top: 0px;
+		left: 0px;
+		font-family: arial;
+		font-size:30px 
+	}
+	*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: Helvetica;
+  width: 580px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #099FFF;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+.mov{
+	background: black;
+	position: absolute;
+	top: 450px;
+	left: 100px;
+	font-size: 80px;
+}
+.texto{flex: 1 auto;margin:4em;
+		background: white ; 
+		position: relative;
+		text-align: justify;
+		top: 50px;
+		left: 450px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 0px black;
+		border : solid 6px #FD1C03;
+        color : black;
+        padding : 4px;
+        width : 1000px;
+        height : 400px;
+        overflow : auto;
+        font-size: 40px;
+        font-family: calibri;
+	}
+	.field{
+		position: relative;
+		border-radius: 0px;
+		top: -50px;
+		left: 75px; 
+		border : solid 6px #FFFF33;
+        background : black;
+        color : white;
+        padding : 4px;
+        width : 1500px;
+        height : 350px;
+        overflow : auto;
+        box-shadow: 0px 0px 0px;
+        text-align: justify;
+		}
+	.txt{
+		font-size: 40px;
+	}
+	.txt1{
+		color: white;
+		font-size: 30px;
+	}
+	.gene{
+		position: relative;
+		top: -1200px;
+		left: 0px;
+	}
+	.i1{
+		position: relative;
+		top: 0px;
+		left: 100px;
+	}
+	.i2{
+		position: relative;
+		top: 0px;
+		left: 200px;
+	}
+	.i3{
+		position: relative;
+		top: 0px;
+		left: 300px;
+	}
+	.i4{
+		position: relative;
+		top: 0px;
+		left: 400px;
+	}
+</style>
+<body background="background.gif">
+	<img class="banner" src="banner.gif" width="1680" height="200">
+	<div class="a1">BITCOINS WORLD</div>
+	<div class="sub">Companias</div>
+	<img class="logo" src="bitcoin.gif" width="250" height="200">
+	<div class="principal1">
+		<a class="p3" href="index.html">Inicio       </a>
+		<a class="p4" href="marco.html">Marco teorico        </a>
+		<a class="p5" href="companias.html">Companias     </a>
+		<a class="p6" href="riesgos.html">Riesgos     </a>
+		<a class="p7" href="beneficios.html">Beneficios      </a>
+		<a class="p8" href="evolucion.html">Evoluci&oacute;n </a>
+		<a class="p9" href="futuro.html">Su Futuro </a>
+		<a class="p10" href="aprendimos.html">Formulario </a>
+	</div>
+	<div class="combo1">Seleccione una compania:</div>
+	<header>
+      <nav class="mov">
+        <ul id="menu">
+          <li><a href="microsoft.html">Microsoft</a>
+            <ul>
+              <li><a href="pay.html">Pay pal</a></li>
+              <li><a href="visa.html">Visa</a></li>
+              <li><a href="master.html">Mastercard</a></li>
+            </ul>  
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="texto">Microsoft y otras grandes corporaciones también comenzaron a aceptar Bitcoin. De acuerdo con su política, se puede usar Bitcoin para depositar recursos monetarios en su cuenta personal de Microsoft. Estos fondos solo se puede gastar en juegos, películas y aplicaciones, pero no puede comprar productos en la tienda en línea de Microsoft. Si eres un jugador o un fanático de las películas, este es un servicio confiable para usar.</div>
+    <fieldset class="field">
+	<legend class="txt"><strong>¿Donde surgio la fusion con los bitcoins?</strong></legend>
+	<div class="txt1">Origen</br>En los últimos años, el valor de cambio de las criptomonedas ha experimentado fluctuaciones increíbles y repentinas, del orden de miles de euros. ¿Cómo sería posible utilizar Bitcoin en la panadería como medio de intercambio si su valor cambia minuto a minuto? Además, ¿cómo puede un objeto digital que no tiene valor intrínseco ser una medida de valor? ¿Y si éste no está reconocido como medio de pago por una autoridad central (por ejemplo, un banco central)?</br>
+	Probablemente no estaba en los planes del misterioso inventor Satoshi Nakamoto, pero hoy Bitcoin y otras criptomonedas no son medios de intercambio sino instrumentos especulativos desregulados. Cientos de miles de personas compran y venden criptomonedas todos los días con el único objetivo de beneficiarse de su crecimiento en valor; la burbuja especulativa de la que fueron protagonistas entre finales de 2017 y principios de 2018 es una prueba clara de ello.</div>
+	</fieldset>
+	<img class="i1" src="compa1.jpg">
+	<img class="i2" src="compa2.jpg">
+	<img class="i3" src="compa3.jpg">
+	<img class="i4" src="compa4.jpg">
+	<div class="gene">
+	<img class="image4" src="face.png" width="100" height="100">
+	<img class="image5" src="you.png" width="100" height="100">
+	<img class="image6" src="insta.png" width="100" height="100">
+	<img class="image7" src="twi.png" width="100" height="100">
+	<a class="hiper1" href="https://www.facebook.com">facebook</a>
+	<a class="hiper2" href="https://www.youtube.com">youtube</a>
+	<a class="hiper3" href="https://www.Instagram.com">Instagram</a>
+	<a class="hiper4" href="https://twitter.com">twitter</a>
+	<div class="principal4">
+		<div class="z1">Oscar Andre</br> 
+		Jimenez Del Cid</br>
+		5LA</br>
+		Practica supervisada</div>
+	</div>
+	</div>
+
+</body>
+</html>

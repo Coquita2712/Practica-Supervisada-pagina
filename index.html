@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bitcoins World</title>
+</head>
+<style type="text/css">
+	.banner{
+		position: absolute;
+		border-radius:0px;
+		top: 0px;
+		left: 00px;
+	}
+	.a1{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 120px;
+		color: white;
+		text-align: center;
+		left: 150px;
+		top: 10px;
+	}
+	.sub{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 60px;
+		color: white;
+		text-align: center;
+		left: 600px;
+		top: 130px;
+	}
+	.logo{
+		position: absolute;
+		left: 1300px;
+		top: 0px;
+	}
+	.principal1{flex: 1 auto;margin:4em;
+		background: white ;
+		text-align: center;  
+		width:1600px;
+		height: 40px;
+		position: relative;
+		top: 170px;
+		left: -30px;
+		border: black 10px solid;
+		border-radius: 4px;
+		box-shadow: 6px 6px 0px black;
+	}
+	.p3{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		top: 0px;
+		left: -170px;
+		font-size:32px 
+	}
+	.p4{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -120px;
+		font-size:32px 
+	}
+	.p5{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -70px;
+		font-size:32px 
+	}
+	.p6{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -20px;
+		font-size:32px 
+	}
+	.p7{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 30px;
+		font-size:32px 
+	}
+	.p8{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 80px;
+		font-size:32px 
+	}
+	.p9{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 130px;
+		font-size:32px 
+	}
+	.p10{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		top: 0px;
+		left: 170px;
+		font-size:32px 
+	}
+	.principal2{flex: 1 auto;margin:1em;
+		background: white ;
+		text-align: center;  
+		width:450px;
+		height: 45px;
+		position: relative;
+		top: 170px;
+		left: 0px;
+	}
+	.t1{
+		position: relative;
+		text-align: center;
+		border: #FFFF33 6px solid;
+		border-radius: 0px;
+		background: black;
+		color: white;
+		top: -10px;
+		left: 0px;
+		font-family: arial;
+		font-size:40px 
+	}
+	.t2{
+		position: absolute;
+		text-align: center;
+		border: #FFFF33 6px solid;
+		border-radius: 0px;
+		background: black;
+		color: white;
+		top: 350px;
+		left: 850px;
+		font-family: arial;
+		font-size:40px 
+	}
+	.principal3{flex: 1 auto;margin:4em;
+		background: white ; 
+		position: relative;
+		text-align: justify;
+		top: 0px;
+		left: 680px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 0px black;
+		border : solid 6px #9900FF;
+        color : black;
+        padding : 4px;
+        width : 800px;
+        height : 400px;
+        overflow : auto;
+        font-size: 40px;
+        font-family: calibri;
+	}
+	.o1{
+		position: absolute;
+		border-radius: 0px;
+		text-align: justify;
+		top: 00px;
+		left: 0px;
+		font-family: arial;
+		font-size:30px 
+	}
+	.field{
+		position: relative;
+		border-radius: 0px;
+		top: -150px;
+		left: 850px; 
+		border : solid 6px #FFFF33;
+        background : black;
+        color : white;
+        padding : 4px;
+        width : 770px;
+        height : 450px;
+        overflow : overlay;
+        box-shadow: 0px 0px 0px;
+		}
+	.txt{
+		font-size: 40px;
+	}
+	.txt1{
+		position: relative;
+		border: solid 4px #9900FF;
+		background: white;
+		column-count: 0;
+		column-gap: 20px;
+		color: black;
+		top: 20px;
+		left: 35px;
+		width: 300px;
+		height: 750px;
+		font-family: arial;
+		font-size:30px
+	}
+	.txt2{
+		position: absolute;
+		border: solid 4px #9900FF;
+		background: white;
+		column-count: 0;
+		column-gap: 20px;
+		color: black;
+		top: 22px;
+		left: 405px;
+		width: 300px;
+		height: 750px;
+		font-family: arial;
+		font-size:30px
+	}
+	.image1{
+		position: absolute;
+		border-radius:0px;
+		top: 970px;
+		left: 0px;
+	}
+	.image2{
+		position: absolute;
+		border-radius:0px;
+		top: 970px;
+		left: 300px;
+	}
+	.image3{
+		position: absolute;
+		border-radius:0px;
+		top: 970px;
+		left: 600px;
+	}
+	.linea1{
+		flex: 1 auto;margin:4em;
+		background: black ; 
+		width:1400px;
+		height: 0px;
+		position: relative;
+		top: 130px;
+		left: 50px;
+		border: black 5px solid;
+		border-radius: 3000px;
+		padding: -5px;
+		box-shadow: 0px 0px 0px black;
+	}
+	.image4{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 400px;
+	}
+	.image5{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 600px;
+	}
+	.image6{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 800px;
+	}
+	.image7{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 1000px;
+	}
+	.hiper1{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 390px;
+		font-size: 30px;
+	}
+	.hiper2{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 600px;
+		font-size: 30px;
+	}
+	.hiper3{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 790px;
+		font-size: 30px;
+	}
+	.hiper4{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 1010px;
+		font-size: 30px;
+	}
+	.principal4{flex: 1 auto;margin:1em;
+		background: white ;
+		text-align: center;  
+		width:450px;
+		height: 150px;
+		position: relative;
+		top: -90px;
+		left: 1150px;
+		border: black 4px solid;
+
+	}
+	.z1{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		column-count: 1;
+		column-gap: 20px;
+		top: 0px;
+		left: 0px;
+		font-family: arial;
+		font-size:30px 
+	}
+	.video{
+		position: absolute;
+		left: 20px;
+		top: 440px;
+	}
+	.gene{
+		position: relative;
+		top: -1400px;
+		left: 0px;
+	}
+
+</style>
+<body background="background.gif">
+	<img class="banner" src="banner.gif" width="1680" height="200">
+	<div class="a1">BITCOINS WORLD</div>
+	<div class="sub">Inicio</div>
+	<img class="logo" src="bitcoin.gif" width="250" height="200">
+	<div class="principal1">
+		<a class="p3" href="index.html">Inicio       </a>
+		<a class="p4" href="marco.html">Marco teorico        </a>
+		<a class="p5" href="companias.html">Companias     </a>
+		<a class="p6" href="riesgos.html">Riesgos     </a>
+		<a class="p7" href="beneficios.html">Beneficios      </a>
+		<a class="p8" href="evolucion.html">Evoluci&oacute;n </a>
+		<a class="p9" href="futuro.html">Su Futuro </a>
+		<a class="p10" href="aprendimos.html">Formulario</a>
+	</div>
+	<div class="principal2">
+		<div class="t1"><i>¿Cómo funciona?</i></div>
+	</div>	
+	<div class="t2">¿Que son los bitcoins?</div></br>
+	<div class="principal3">
+		<div class="o1">
+		Bitcoin es una moneda virtual o un medio de intercambio electrónico que sirve para adquirir productos y servicios como cualquier otra moneda. Pero esta moneda es descentralizada, es decir que no existe una autoridad o ente de control que sea responsable de su emisión y registro de sus movimientos. Consiste en una clave criptográfica que se asocia a un monedero virtual, el cual descuenta y recibe pagos.
+		</br>
+		Los bitcoins se pueden utilizar para comprar mercancías de forma anónima. Además, los pagos internacionales son fáciles y baratos por el hecho de que no están vinculados a ningún país ni están sujetos a regulación. A las pequeñas empresas les pueden gustar porque no hay cobros de tarjetas de crédito.
+		</div>
+	</div>
+
+	<fieldset class="field">
+	<legend class="txt"><strong>Ingreso de datos</strong></legend>
+	<div class="txt1">Origen</br>Se puede decir que el Bitcoin (BTC) es el origen y máximo representante de las criptomonedas, con protocolo de código abierto y red entre iguales. Nació a raíz del artículo de Satoshi Nakamoto (hasta ahora desconocido), publicado en 2008.El primer Bitcoin o criptomoneda que se emitió vio la luz el 3 de enero de 2009 a las 18:15 horas, como parte de un bloque de 50 BTC llamado génesis.</div>
+	<div class="txt2">Inicios</br>Al comienzo de su desarrollo solo algunos geeks de la tecnología lo conocían y era considerado casi inútil y carente de valor. Sin embargo, su valor ha alcanzado cifras nunca imaginadas para este tipo de activo. A pesar de que Bitcoin es bien conocida entre los negociantes por sus oscilaciones de precio, muchos creen que esta moneda digital líder llegó para quedarse.</div>
+	</fieldset>
+	<img class="image1" src="ima1.jpg" width="250" height="250">
+	<img class="image2" src="ima2.jpg" width="250" height="250">
+	<img class="image3" src="ima3.jpg" width="250" height="250">
+		
+	<div class="gene">
+	<img class="image4" src="face.png" width="100" height="100">
+	<img class="image5" src="you.png" width="100" height="100">
+	<img class="image6" src="insta.png" width="100" height="100">
+	<img class="image7" src="twi.png" width="100" height="100">
+	<a class="hiper1" href="https://www.facebook.com">facebook</a>
+	<a class="hiper2" href="https://www.youtube.com">youtube</a>
+	<a class="hiper3" href="https://www.Instagram.com">Instagram</a>
+	<a class="hiper4" href="https://twitter.com">twitter</a>
+	</div>
+	<div class="principal4">
+		<div class="z1">Oscar Andre</br> 
+		Jimenez Del Cid</br>
+		5LA</br>
+		Practica supervisada</div>
+	</div>
+	<div class="video">
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/O8pikU9crW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</body>
+</html>

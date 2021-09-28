@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beneficios</title>
+</head>
+<style type="text/css">
+	.banner{
+		position: absolute;
+		border-radius:0px;
+		top: 0px;
+		left: 00px;
+	}
+	.a1{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 120px;
+		color: white;
+		text-align: center;
+		left: 150px;
+		top: 10px;
+	}
+	.sub{
+		position: absolute;
+		font-family: Arial Rounded MT Bold;
+		font-size: 60px;
+		color: white;
+		text-align: center;
+		left: 520px;
+		top: 130px;
+	}
+	.logo{
+		position: absolute;
+		left: 1300px;
+		top: 0px;
+	}
+	.principal1{flex: 1 auto;margin:4em;
+		background: white ;
+		text-align: center;  
+		width:1600px;
+		height: 40px;
+		position: relative;
+		top: 170px;
+		left: -30px;
+		border: black 10px solid;
+		border-radius: 4px;
+		box-shadow: 6px 6px 0px black;
+	}
+	.p3{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		top: 0px;
+		left: -170px;
+		font-size:32px 
+	}
+	.p4{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -120px;
+		font-size:32px 
+	}
+	.p5{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -70px;
+		font-size:32px 
+	}
+	.p6{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: -20px;
+		font-size:32px 
+	}
+	.p7{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 30px;
+		font-size:32px 
+	}
+	.p8{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 80px;
+		font-size:32px 
+	}
+	.p9{
+		position: relative;
+		text-align: center;
+		border-right: black 6px solid;
+		border-radius: 0px;
+		top: 0px;
+		left: 130px;
+		font-size:32px 
+	}
+	.p10{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		top: 0px;
+		left: 170px;
+		font-size:32px 
+	}
+	.img{
+		background: white;
+		width: 750px;
+		height: 400px;
+		position: relative;
+		top: 170px;
+		left: 30px;
+	}
+	.t1{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		background-color: black;
+		border: #FD1C03 6px solid;
+		font-family: Arial;
+		color: white;
+		height: 100px;
+		width: 500px;
+		top: 150px;
+		left: 30px;
+		font-size:40px 
+	}
+	.t2{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		background-color: black;
+		border: #FD1C03 6px solid;
+		font-family: Arial;
+		color: white;
+		height: 50px;
+		width: 470px;
+		top: -360px;
+		left: 830px;
+		font-size:40px 
+	}
+	.t3{
+		position: relative;
+		text-align: center;
+		border-radius: 0px;
+		background-color: black;
+		border: #FD1C03 6px solid;
+		font-family: Arial;
+		color: white;
+		height: 50px;
+		width: 500px;
+		top: -570px;
+		left: 570px;
+		font-size:40px 
+	}
+	.lista{flex: 1 auto;margin:4em;
+		background: white ; 
+		position: relative;
+		text-align: justify;
+		top: -485px;
+		left: 670px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 0px black;
+		border : solid 6px #099FFF;
+        color : black;
+        padding : 4px;
+        width : 800px;
+        height : 420px;
+        overflow : auto;
+        font-size: 40px;
+        font-family: calibri;
+	}
+	.titulo{
+		color: blue;
+		position: relative;
+		width: 140px;
+		height: 50px;
+		top: 10px;
+		font-family: Gravity Font;
+	}
+	.texto{
+		font-size: 30px;
+		position: relative;
+		top: 20px;
+		font-family: Playfair Display Font;
+	}
+	.imagen{
+		position: relative;
+		left: 230px;
+		top: 40px;
+	}
+	.titulo2{
+		color: blue;
+		position: relative;
+		width: 140px;
+		height: 50px;
+		top: 60px;
+		font-family: Gravity Font;
+	}
+	.texto2{
+		font-size: 30px;
+		position: relative;
+		top: 70px;
+		font-family: Playfair Display Font;
+	}
+	.imagen2{
+		position: relative;
+		left: 230px;
+		top: 90px;
+	}
+	.titulo3{
+		color: blue;
+		position: relative;
+		width: 340px;
+		height: 50px;
+		top: 110px;
+		font-family: Gravity Font;
+	}
+	.texto3{
+		font-size: 30px;
+		position: relative;
+		top: 120px;
+		font-family: Playfair Display Font;
+	}
+	.imagen3{
+		position: relative;
+		left: 230px;
+		top: 140px;
+	}
+	.titulo4{
+		color: blue;
+		position: relative;
+		width: 400px;
+		height: 50px;
+		top: 160px;
+		font-family: Gravity Font;
+	}
+	.texto4{
+		font-size: 30px;
+		position: relative;
+		top: 170px;
+		font-family: Playfair Display Font;
+	}
+	.imagen31{
+		position: relative;
+		left: 230px;
+		top: 190px;
+	}
+	.titulo5{
+		color: blue;
+		position: relative;
+		width: 560px;
+		height: 50px;
+		top: 210px;
+		font-family: Gravity Font;
+	}
+	.texto5{
+		font-size: 30px;
+		position: relative;
+		top: 220px;
+		font-family: Playfair Display Font;
+	}
+	.imagen32{
+		position: relative;
+		left: 230px;
+		top: 240px;
+	}
+	.tam{
+		background: white ; 
+		position: relative;
+		text-align: justify;
+		top: -520px;
+		left: 80px;
+		border-radius: 4px;
+		box-shadow: 0px 0px 0px black;
+		border : solid 6px #099FFF;
+        color : black;
+        padding : 0px;
+        width : 1500px;
+        height : 320px;
+        overflow : auto;
+        font-size: 40px;
+        font-family: calibri;
+	}
+	.link{
+		position: absolute;
+		text-align: center;
+		top: 00px;
+		left: 30px;
+		font-size:40px 
+	}
+	.link2{
+		position: absolute;
+		text-align: center;
+		top: 00px;
+		left: 560px;
+		font-size:40px 
+	}
+	.link3{
+		position: absolute;
+		text-align: center;
+		top:0px;
+		left: 1100px;
+		font-size:40px 
+	}
+	.foto1{
+		position: absolute;
+		text-align: center;
+		top: 60px;
+		left: 18px;
+		font-size:40px 
+	}
+	.foto2{
+		position: absolute;
+		text-align: center;
+		top: 60px;
+		left: 545px;
+		font-size:40px 
+	}
+	.foto3{
+		position: absolute;
+		text-align: center;
+		top: 60px;
+		left: 1050px;
+		font-size:40px 
+	}
+	.link4{
+		position: absolute;
+		text-align: center;
+		top: 350px;
+		left: 30px;
+		font-size:40px 
+	}
+	.link5{
+		position: absolute;
+		text-align: center;
+		top: 350px;
+		left: 510px;
+		font-size:40px 
+	}
+	.link6{
+		position: absolute;
+		text-align: center;
+		top:350px;
+		left: 1000px;
+		font-size:40px 
+	}
+	.foto4{
+		position: absolute;
+		text-align: center;
+		top: 410px;
+		left: 20px;
+		font-size:40px 
+	}
+	.foto5{
+		position: absolute;
+		text-align: center;
+		top: 410px;
+		left: 545px;
+		font-size:40px 
+	}
+	.foto6{
+		position: absolute;
+		text-align: center;
+		top: 410px;
+		left: 1035px;
+		font-size:40px 
+	}
+	
+	.image4{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 400px;
+	}
+	.image5{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 600px;
+	}
+	.image6{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 800px;
+	}
+	.image7{
+		position: absolute;
+		border-radius:0px;
+		top: 1350px;
+		left: 1000px;
+	}
+	.hiper1{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 390px;
+		font-size: 30px;
+	}
+	.hiper2{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 600px;
+		font-size: 30px;
+	}
+	.hiper3{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 790px;
+		font-size: 30px;
+	}
+	.hiper4{
+		position: absolute;
+		border-radius:0px;
+		color: white;
+		top: 1460px;
+		left: 1010px;
+		font-size: 30px;
+	}
+	.principal4{
+		background: white ;
+		text-align: center;  
+		width:450px;
+		height: 150px;
+		position: absolute;
+		top: 1340px;
+		left: 1150px;
+		border: black 4px solid;
+	}
+	.gene{
+		position: absolute;
+		top: 180px;
+		left: 0px;
+	}
+	.z1{
+		position: relative;
+		text-align: center;
+		border-radius: 1px;
+		column-count: 1;
+		column-gap: 20px;
+		top: 0px;
+		left: 0px;
+		font-family: arial;
+		font-size:30px 
+	}
+	.linea{
+		position: relative;
+		top: -600px;
+		left: 0px;
+		border-radius: 10px;
+		width: 1600px;
+	}
+</style>
+<body background="background.gif">
+	<img class="banner" src="banner.gif" width="1680" height="200">
+	<div class="a1">BITCOINS WORLD</div>
+	<div class="sub">Beneficios</div>
+	<img class="logo" src="bitcoin.gif" width="250" height="200">
+	<div class="principal1">
+		<a class="p3" href="index.html">Inicio       </a>
+		<a class="p4" href="marco.html">Marco teorico        </a>
+		<a class="p5" href="companias.html">Companias     </a>
+		<a class="p6" href="riesgos.html">Riesgos     </a>
+		<a class="p7" href="beneficios.html">Beneficios      </a>
+		<a class="p8" href="evolucion.html">Evolucion </a>
+		<a class="p9" href="futuro.html">Su Futuro </a>
+		<a class="p10" href="aprendimos.html">Formulario </a>
+	</div>
+	<div class="t1">Evolución del precio medio de bitcoin desde 2017</div>
+	<img class="img" src="grafica.jpeg">
+	<div class="t2">Lista de beneficios</div>
+	<div class="lista">
+		<div class="titulo">Liquidez</div>
+		<div class="texto">La liquidez mide el tiempo que se tarda en convertir una criptomoneda en efectivo sin que esto tenga impacto en el precio del mercado, es muy importante porque ofrece mejores precios y transacciones más rápidas.</div>
+		<img src="liquidez.jpg" class="imagen">
+		<div class="titulo2">Volatilidad</div>
+		<div class="texto2">La volatilidad de las criptomonedas es lo que hace que comprarlas sea más emocionante, las subidas y bajadas de precio permiten a los inversores ir a largo y a corto plazo.</br>
+		Entre octubre del 2017 y 2018, el precio del Bitcoin aumentó considerablemente, por lo que dio muchas ganancias a quienes habían invertido en él, sin embargo, es importante desarrollar una estrategia de gestión de riesgo.  </div>
+		<img src="volatilidad.jpg" class="imagen2">   
+		<div class="titulo3">Horario del mercado</div>
+		<div class="texto3">Dado que no existe una gestión centralizada en el sector de las criptomonedas, puedes operar prácticamente las 24 horas del día los 7 días de la semana. </div>
+		<img src="horario.jpg" class="imagen3">
+		<div class="titulo4">Abrir cuenta más rápido</div>
+		<div class="texto4">Para invertir en Bitcoin (y criptomonedas en general) es necesario aperturar una cartera digital, que en términos generales es mucho más rápido y fácil que una cuenta de banco.</br>
+		Hoy en día existen muchas opciones de wallet, puedes elegir con la que te sientas más cómodo. </div>
+		<img src="cuenta.jpg" class="imagen31">
+		<div class="titulo5">Transacciones rápidas y seguras</div>
+		<div class="texto5">Las transacciones suelen ser muy rápidas y 100% seguras. Por ello, pagar con Bitcoin no pone en riesgo el capital del usuario. De la misma manera es un activo muy seguro para invertir.</br>
+		Si estás considerando maximizar tu inversión, aquí puedes encontrar toda la información para invertir en Bitcoin. </div>
+		<img src="trans.png" class="imagen32">
+	</div>
+	<hr color="white" size=8 width="1500" class="linea">
+	<div class="t3">Tambien se busco...</div>
+	<div class="tam">
+			<a class="link" href="https://es.digitaltrends.com/computadoras/como-minar-bitcoins/">Como producir bitcoins</a>
+			<a href="https://www.finect.com/usuario/Josetrecet/articulos/invertir-bitcoins-debes" class="link2">La inversion de Bitcoins</a>
+			<a href="https://www.gb-advisors.com/es/bitcoins-y-seguridad-digital/" class="link3">La seguridad virtual</a>
+			<img src="produccion.jpg" class="foto1" width="400" height="250">
+			<img src="inversion.jpg" class="foto2" width="400" height="250">
+			<img src="seguridad.jpg" class="foto3" width="400" height="250">
+			<a class="link4" href="https://academy.bit2me.com/bitcoin-no-es-anonimo/">¿El bitcoin es anónimo?</a>
+			<a href="https://www.gq.com.mx/estilo-de-vida/articulo/bitcoin-es-una-estafa-de-piramide-expertos-explican" class="link5">¿El bitcoin es una pirámide?</a>
+			<a href="https://criptoblog.tutellus.com/todo-sobre-el-hackeo-a-binance-para-dummies" class="link6">¿Al bitcoin lo han hackeado?</a>
+			<img src="anonimo.jpg" class="foto4" width="400" height="250">
+			<img src="piramide.jpg" class="foto5" width="400" height="250">
+			<img src="hack.jpg" class="foto6" width="400" height="250">
+	</div>
+	<div class="gene">
+	<img class="image4" src="face.png" width="100" height="100">
+	<img class="image5" src="you.png" width="100" height="100">
+	<img class="image6" src="insta.png" width="100" height="100">
+	<img class="image7" src="twi.png" width="100" height="100">
+	<a class="hiper1" href="https://www.facebook.com">facebook</a>
+	<a class="hiper2" href="https://www.youtube.com">youtube</a>
+	<a class="hiper3" href="https://www.Instagram.com">Instagram</a>
+	<a class="hiper4" href="https://twitter.com">twitter</a>
+	<div class="principal4">
+		<div class="z1">Oscar Andre</br> 
+		Jimenez Del Cid</br>
+		5LA</br>
+		Practica supervisada</div>
+	</div>
+	</div>
+</body>
+</html>
